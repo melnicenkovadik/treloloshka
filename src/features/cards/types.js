@@ -1,0 +1,9 @@
+export const ADD_CARD = 'cards/addCard';
+export const REMOVE_CARD = 'cards/removeCard';
+export const SET_CARDS = 'cards/setCards';
+export const FETCH_CARDS_SUCCESS = 'desks/fetchCardsSuccess';
+export const FETCH_CARDS_FAIL = 'desks/fetchCardsFail';
+export const DELETE_CARD_SUCCESS = 'desks/deleteCardSuccess';
+export const DELETE_CARD_FAIL = 'desks/deleteCardFail';
+export const CREATE_CARD_SUCCESS = 'desks/createCardSuccess';
+export const CREATE_CARD_FAIL = 'desks/createCardFail';
