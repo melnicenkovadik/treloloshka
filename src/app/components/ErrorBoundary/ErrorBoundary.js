@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button, Text} from "@vkontakte/vkui";
 
 class ErrorBoundary extends React.PureComponent {
   constructor(props) {
@@ -26,13 +27,13 @@ class ErrorBoundary extends React.PureComponent {
   render() {
     if (this.state.hasError) {
       return (
-        <div>
-          <h1>Ребята, произошло что-то странное</h1>
-          <button onClick={this.reloadPage}>Перезагрузить страницу</button>
+          <div>
+              <h1>Ребята, произошло что-то странное</h1>
+              <Button color={'primary'} onClick={this.reloadPage}>Перезагрузить страницу</Button>
 
-          {/*<button>Показать техническую информацию</button>*/}
-          {/*this.state.stack*/}
-        </div>
+              <Button color={'secondary'}>Показать техническую информацию</Button>
+              <Text>{this.state.stack}</Text>
+          </div>
       );
     }
 
