@@ -1,6 +1,6 @@
 {
   "name": "trelolochkin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
     "node": "12.x"
   },
@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "CI=true NODE_PATH=src react-scripts build"
   },
   "keywords": [],
   "author": "",
