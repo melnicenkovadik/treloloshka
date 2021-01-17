@@ -6,7 +6,7 @@ import { Card, Div } from "@vkontakte/vkui";
 
 import './ColumnCard.css';
 import { pages } from "../../../../router";
-// import { deleteCard } from "../../../cards/actions";
+// import { deleteCard } from "../../../cards/api";
 
 const ColumnCard = ({ children, id }) => {
   // const dispatch = useDispatch();
